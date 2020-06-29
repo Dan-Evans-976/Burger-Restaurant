@@ -31,7 +31,7 @@ function getLocationFromPostCode(){
 			showMessage("Whoops, that postcode was not valid. Please try again.", "alert-warning");
 		}
 	};
-  xhttp.open("GET", "http://api.postcodes.io/postcodes/"+postCode, true);
+  xhttp.open("GET", "https://api.postcodes.io/postcodes/"+postCode, true);
   xhttp.send();
   return false;
 }
