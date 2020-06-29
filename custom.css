@@ -1,0 +1,47 @@
+/* Limits the maximum height of the image carousel and ensures that the aspect ratio of the images are maintained */
+.carousel-inner img {
+    max-height: 800px;
+	width: auto%;
+	max-width: 100%;
+}
+
+/* Ensures that the social media icons are displayed at the correct size */
+.social-media-icon{
+	width: 100%;
+}
+
+/* Increases the font size for navbar items slightly */ 
+.navbar-fontsize{
+	font-size: 24px;
+}
+
+.navbar-logo{
+	width:100px;
+}
+
+.information-block{
+	margin-top: 20px;
+}
+
+/* Adds a margin to the top of the footer, removes the margin from the bottom */ 
+.footer{
+	margin: 20px 0px 0px;
+}
+
+.social-media-container{
+	margin: 20px;
+}
+
+.postcode-input{
+	width: 50%;
+	margin: auto;
+}
+
+.findme-button{
+	margin: 15px;
+}
+
+.header-background{
+	background-image:url("images/Header_Background.png");
+}
+
